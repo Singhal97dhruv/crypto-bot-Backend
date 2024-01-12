@@ -12,7 +12,7 @@ app.use(express.json({limit: "100kb"}));
 
 app.use(cors(
     {
-      origin: ["http://localhost:3001"],
+      origin: ["https://crypto-bot.vercel.app"],
       methods: ["POST","GET","PUT","DELETE"],
       credentials: true
     }
